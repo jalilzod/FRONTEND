@@ -21,12 +21,39 @@
         .userInfo{
             display: flex;
             flex-direction: column;
-            justify-content:space-around;
+            justify-content:center;
+            row-gap: 1rem;
             align-items: center;
-            height: 150px;
+            height: 50vh;
             background-color: rgb(62, 62, 83);
         }
-        
+
+        .userInfo input{
+            border: 1px solid rgb(52, 52, 54);
+            border-radius: 5px;
+            padding: 5px 20px;
+            outline: 0;
+            font-size: 16px;
+        }
+        .userInfo input:focus{
+            border: 1px solid rgb(9, 54, 150);
+        }
+
+        .userInfo button{
+            border: 0;
+            border-radius: 10px;
+            padding: 5px 40px;
+            background-color: rgb(30, 132, 211);
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .userInfo button:hover{
+            background-color: rgb(9, 82, 138);
+            color: rgb(170, 168, 168);
+            transition: 0.2s;
+        }
+
 
     </style>
 </head>
